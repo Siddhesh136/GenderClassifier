@@ -12,6 +12,8 @@ Y = ['male', 'male', 'female', 'female', 'male', 'male', 'female', 'female',
 
 #training our data
 cls = cls.fit(X, Y)
+
+#Prediction
 prediction = cls.predict([[160, 50, 30]])
 print(prediction)
 
